@@ -6,6 +6,7 @@ import Hero from "@/Pages/Section/Hero.vue";
 import Topics from "@/Pages/Section/Topics.vue";
 import About from "@/Pages/Section/About.vue";
 import Service from "@/Pages/Section/Service.vue";
+import Banner from "@/Pages/Section/Banner.vue";
 import Contact from "@/Pages/Section/Contact.vue";
 </script>
 
@@ -16,11 +17,12 @@ import Contact from "@/Pages/Section/Contact.vue";
     <Header />
     <main class="relative w-full min-h-screen pt-16">
       <Hero />
-      <Topics />
       <About />
       <Service />
-      <Contact />
+      <Banner />
+      <Topics />
     </main>
+    <Contact />
     <Footer />
   </div>
 </template>
